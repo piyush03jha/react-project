@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "title":"Piyush Jha",
+        "role":"Full Stack Developer",
+        "imgUrl": "/piyush.jpg",
+        "youtube":"https://www.youtube.com/watch?v=De9VIp37CjY",
+        "insta":"https://www.instagram.com/piyush03jha/",
+        "linkedIn":"https://www.linkedin.com/in/piyush03jha/",
+        "github":"https://github.com/piyush03jha",
+        "message":"https://wa.me/7827249165"
+
+    },
+    {
+        "id":2,
+        "title":"Manas Tiwari",
+        "role":"SSC Aspirant",
+        "imgUrl": "/manas.jpg",
+        "youtube":"https://www.youtube.com/watch?v=De9VIp37CjY",
+        "insta":"https://www.instagram.com/manas_1389/",
+        "linkedIn":"https://www.linkedin.com/in/piyush03jha/",
+        "github":"https://github.com/piyush03jha",
+        "message":"https://wa.me/8287656713"
+    },
+    {
+        "id":3,
+        "title":"Abhisheak Pratap Singh Arya",
+        "role":"Data Scientist",
+        "imgUrl": "/Abhishek.jpg",
+        "youtube":"https://www.youtube.com/watch?v=De9VIp37CjY",
+        "insta":"https://www.instagram.com/unreadable_brain/",
+        "linkedIn":"https://www.linkedin.com/in/abhishek-pratap-singh-arya-874600300/",
+        "github":"https://github.com/abhishekpratapsingharya",
+        "message":"https://wa.me/941026777"
+    },
+    {
+        "id":4,
+        "title":"Nikhil",
+        "role":"Trader",
+        "imgUrl": "/nikhil.jpg",
+        "youtube":"https://www.youtube.com/watch?v=De9VIp37CjY",
+        "insta":"https://www.instagram.com/nikkkkkkhhil/",
+        "linkedIn":"https://www.linkedin.com/in/nikhil-kumar8287335725/",
+        "github":"https://github.com/abhishekpratapsingharya",
+        "message":"https://wa.me/8287335725"
+    }
+]
