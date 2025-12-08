@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body{
+  background: #1d1c1c;
+}
+
+button{
+  background: #3b3a3a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+button:hover{
+  background: #575656;
+  cursor: pointer;
+}
