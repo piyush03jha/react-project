@@ -50,3 +50,9 @@
     height: 500px;
     width: 500px;
 }
+textarea{
+    height: 120px;
+    padding: 10px;
+    resize: none;
+
+}

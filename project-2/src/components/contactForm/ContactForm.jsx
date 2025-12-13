@@ -44,7 +44,7 @@ const ContactForm = () => {
 
               <div className={styles.form_control}>
                 <label htmlFor="text">Text</label>
-                <textarea name="name" rows="8" />
+                <textarea name="name" rows="8"  />
               </div>
 
               <div 
