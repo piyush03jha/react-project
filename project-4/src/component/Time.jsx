@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const Time = ({setIsOver}) => {
 
-    const[leftTime, setLeftTime] = useState(500);
+    const[leftTime, setLeftTime] = useState(60);
     const[displayTime, setDisplayTime] = useState("");
 
     useEffect(() => {
