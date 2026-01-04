@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
+import "./App.css";
 
 function App() {
   /* =============================
@@ -74,11 +75,13 @@ function App() {
 
   return (
     <div >
-      <h2 className="flex items-center justify-center">Movie Search</h2>
+      <div className="flex flex-col justify-center items-center">
+        <h2 className=" mt-4">Movie Search</h2>
 
       {/* Search Input */}
       <input
         type="text"
+        className=" border-2 rounded-xl mb-5 mt-3"
         placeholder="Search movies..."
         value={search}
         onChange={(e) => {
@@ -87,13 +90,19 @@ function App() {
         }}
         style={{ padding: "8px", width: "250px" }}
       />
+      </div>
 
-      {/* Initial Loading */}
-      {isLoading && <p>Loading...</p>}
+      <div className="flex justify-center items-center">
+        {/* Initial Loading */}
+        {isLoading && 
+          <div className="flex justify-center items-center h-screen">
+          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-500"></div>
+          </div>}
 
       {/* Error State */}
       {isError && <p style={{ color: "red" }}>{error.message}</p>}
 
+      </div>
       {/* Results */}
       {data?.Search && (
         <div className="grid grid-cols-4">
@@ -108,7 +117,8 @@ function App() {
       )}
 
       {/* Pagination Controls */}
-      {debouncedSearch && (
+      <div className="flex justify-center items-center mb-4">
+        {debouncedSearch && (
         <div style={{ marginTop: "10px" }}>
           <button
             onClick={() => setPage((p) => p - 1)}
@@ -131,6 +141,7 @@ function App() {
           {isFetching && <p>Updating...</p>}
         </div>
       )}
+      </div>
     </div>
   );
 }
